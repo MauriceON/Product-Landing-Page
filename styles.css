@@ -1,0 +1,317 @@
+body
+{
+    background-color: #eee;
+    margin: 0;
+    padding: 50px;
+}
+#pricing
+{
+   
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    justify-content: center;
+   
+}
+.product
+{
+   
+    width: 280px;
+    margin:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    text-align: left;
+   
+}
+.level
+{
+   
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    background-color: rgb(187, 183, 183);
+    color: white;
+   
+}
+h2
+{
+    text-align: center;
+}
+#pricing li
+{
+    list-style: none;
+}
+#pricing button
+{
+    padding: 10px 20px 10px 20px;
+    background-color: #f1c40f;
+    width: 100%;
+    border: none;
+   
+   
+}
+#pricing button:hover
+{
+    background-color: #ffc65d;
+}
+
+#container
+{
+    display: flex;
+    flex-direction: row;
+}
+a
+{
+    list-style: none;
+    color: rgb(95, 54, 54);
+}
+li
+{
+    list-style: none;
+    display: inline;
+   
+}
+#page-wrapper
+{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+footer
+{
+    margin-top: 20px;
+}
+
+
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    float: left;
+    background-color: rgb(160, 160, 160);
+    width: 100%;
+    height: 50px;
+
+}
+img
+{
+    height: 40px;
+    width: 50px;
+}
+header div
+{
+    display: inline;
+    text-align: center;
+    float: left;
+    margin-left: 50px;
+    margin-top: 5px;
+
+
+}
+header nav
+{ 
+    display: inline;
+    float: right;
+}
+header nav li{
+    padding: 30px;
+    box-sizing: border-box;
+
+}
+header nav li a
+{
+   color: rgb(63, 28, 28);
+   font-size: 16px;
+   text-decoration: none;
+}
+
+
+#hero
+{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#hero .btn
+{
+    margin-top: 20px;
+    width: 40%;
+    margin: 10px auto;
+    display: block;
+    background-color:#f1c40f ;
+    padding: 10px;
+    border: none;
+    font-weight: bolder;
+    font-weight: 1000;
+    text-transform: uppercase;
+   
+    
+}
+input
+{
+    border-radius: 5px;
+    width: 300px;
+    padding: 10px;
+}
+.grid
+{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.grid .desc
+{
+   
+    margin-left: 20px;
+   
+}
+.grid .desc h2
+{
+    
+   
+    margin-top: 70px;
+    text-align: left;
+   
+}
+.icon
+{
+    height: 10px;
+    width: 30px;
+   
+}
+#how-it-works
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width:523px)
+{
+    #pricing
+    {
+    
+        display: flex;
+        flex-direction: column;
+        width:350px;
+        align-items: center;
+       
+        text-align: justify;
+    
+    }
+    iframe
+    {
+        width: 300;
+        height: 200;
+    }
+    .grid
+    {
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: justify;
+    }
+}
+@media only screen and (max-width:1044px)
+{
+    #pricing
+    {
+    
+        display: flex;
+        flex-direction: row;
+        width:900px;
+        align-items: center;
+        text-align: justify;
+    
+    }
+    iframe
+    {
+        width: 500;
+        height: 400;
+    }
+    .grid
+    {
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: justify;
+    }
+}
+@media only screen and (max-width:902px)
+{
+    #pricing
+    {
+    
+        display: flex;
+        flex-direction: column;
+        width:350px;
+        align-items: center;
+        text-align: justify;
+    
+    }
+    iframe
+    {
+        width: 300;
+        height: 200;
+    }
+    .grid
+    {
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: justify;
+    }
+}
+@media only screen and (max-width:544px)
+{
+    header div
+    {
+        display: inline;
+        text-align: center;
+        float: left;
+        margin-left: 50px;
+        margin-top: 5px;
+
+
+    }
+    header nav
+    { 
+        display: block;
+        width: 100%;
+        float: left;
+        background-color: rgb(100, 98, 98);
+       
+    }
+    header nav li{
+        padding: 30px;
+        box-sizing: border-box;
+
+    }
+    header nav li a
+    {
+    color: rgb(255, 231, 13);
+    font-size: 16px;
+    text-decoration :none;
+    font-size: 3vw;
+    }
+   #page-wrapper
+   {
+    padding-top: 40px;
+   }
+
+}

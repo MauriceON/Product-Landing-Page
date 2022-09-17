@@ -1,28 +1,30 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+    <header id="header">
+      <div class="logo">
+        <img
+          id="header-img"
+          src="https://image.shutterstock.com/image-vector/letter-logo-600w-262864910.jpg"
+          alt="microverse logo"
+        />
+      </div>
+
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
     <div id="page-wrapper">
-      <header id="header">
-        <div class="logo">
-          <img
-            id="header-img"
-            src="https://assets-global.website-files.com/5dbb30f00775d4350591a4e5/5e2acdb0fce0343dacbfe7d2_Untitled%20design%20(1).png"
-            alt="microverse logo"
-          />
-        </div>
-
-        <nav id="nav-bar">
-          <ul>
-            <li><a class="nav-link" href="#features">Features</a></li>
-            <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
-            <li><a class="nav-link" href="#pricing">Pricing</a></li>
-          </ul>
-        </nav>
-      </header>
-
       <div class="container"></div>
 
       <section id="hero">
@@ -42,7 +44,7 @@
       <div class="container">
         <section id="features">
           <div class="grid">
-            <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+            <div class="icon"><i class="material-icons">traffic</i></i></div>
             <div class="desc">
               <h2>Premium Materials</h2>
               <p>
@@ -53,7 +55,7 @@
           </div>
 
           <div class="grid">
-            <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+            <div class="icon"><i class="material-icons">cloud</i></div>
             <div class="desc">
               <h2>Fast Shipping</h2>
               <p>
@@ -65,7 +67,7 @@
           </div>
           <div class="grid">
             <div class="icon">
-              <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+              <i class="material-icons">computer</i>
             </div>
             <div class="desc">
               <h2>Quality Assurance</h2>
@@ -82,6 +84,7 @@
           <iframe
             id="video"
             height="315"
+            width="600"
             src="https://www.youtube.com/embed/f9ip1iSAptQ"
             frameborder="0"
             allowfullscreen
